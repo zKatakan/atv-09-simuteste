@@ -7,7 +7,7 @@ from task_manager.task import Task, Priority, Status
 def test_task_valida():
     prazo = datetime.now() + timedelta(days=1)
     task = Task(None, "Estudar", "Python", Priority.ALTA, prazo)
-    task.validar()  # Não deve lançar erro
+    task.validar()
     assert task.titulo == "Estudar"
     assert task.status == Status.PENDENTE
 
