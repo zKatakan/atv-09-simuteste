@@ -1,4 +1,3 @@
-
 from datetime import datetime, timedelta
 
 from task_manager.repository import TaskRepository
@@ -12,8 +11,8 @@ def make_task():
 def test_save_atribui_id(mocker):
     mock_storage = mocker.Mock()
     repo = TaskRepository(mock_storage)
-
     task = make_task()
+
     resultado = repo.save(task)
 
     assert resultado.id == 1
