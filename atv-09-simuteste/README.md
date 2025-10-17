@@ -24,13 +24,6 @@ tests/
 requirements.txt
 README.md
 ```
-
-## Tecnologias
-- Python 3.8+
-- pytest
-- pytest-mock
-
-
 ## Como executar os testes
 ```bash
 pytest -v
