@@ -30,11 +30,6 @@ README.md
 - pytest
 - pytest-mock
 
-## Instalação (sem venv)
-Instale as dependências diretamente no seu Python:
-```bash
-pip install -r requirements.txt
-```
 
 ## Como executar os testes
 ```bash
