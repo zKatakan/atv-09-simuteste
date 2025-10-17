@@ -31,6 +31,4 @@ class TaskService:
         if tarefa is None:
             return None
         tarefa.status = status
-        # Em um repositório real, poderíamos persistir a mudança.
-        # Aqui, como a referência está guardada no storage, já está atualizado.
         return tarefa
